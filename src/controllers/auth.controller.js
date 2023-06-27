@@ -17,7 +17,7 @@ const signUp = asyncHandler(async (req, res) => {
 });
 
 /**
- * Login
+ * Login method
  */
 const signIn = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
